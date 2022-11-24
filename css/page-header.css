@@ -1,11 +1,44 @@
 .page-header__container {
   display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.logo-header {
+  margin-right: 66px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.main-nav__item:last-child {
+  margin-left: 30px;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.side-nav__item:last-child {
+  margin-left: 30px;
+}
+
+.side-nav {
+  display: flex;
+  margin-left: auto;
 }
 
 .main-nav__link {
   color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .side-nav__link {
   color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  line-height: 24px;
 }/*# sourceMappingURL=page-header.css.map */
