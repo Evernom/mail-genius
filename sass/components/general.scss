@@ -17,11 +17,16 @@ a {
   text-decoration: none;
 }
 .section{
+  background-image: linear-gradient(
+      to right,
+      #23196F,
+      #180D5B
+    );
+    background-repeat: no-repeat;
 }
-.contaiter{
+.container{
    padding-left: 15px;
    padding-right: 15px;
    max-width: 1214px;
    margin: 0 auto;
-   background-color: blue;
 }

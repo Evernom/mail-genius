@@ -19,10 +19,14 @@ a {
   text-decoration: none;
 }
 
-.contaiter {
+.section {
+  background-image: linear-gradient(to right, #23196F, #180D5B);
+  background-repeat: no-repeat;
+}
+
+.container {
   padding-left: 15px;
   padding-right: 15px;
   max-width: 1214px;
   margin: 0 auto;
-  background-color: blue;
 }/*# sourceMappingURL=general.css.map */
