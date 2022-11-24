@@ -15,10 +15,30 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .contaiter {
   padding-left: 15px;
   padding-right: 15px;
-  max-width: 1200px;
+  max-width: 1214px;
   margin: 0 auto;
-  background-color: aqua;
+  background-color: blue;
+}
+
+.page-header__container {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+}
+
+.main-nav__link {
+  color: #fff;
+}
+
+.side-nav__link {
+  color: rgba(255, 255, 255, 0.8);
 }/*# sourceMappingURL=main.css.map */
